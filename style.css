@@ -1,0 +1,261 @@
+/*Navigation Bar*/
+.logo{
+    width: 64px;
+}
+.bgcolor {
+    background-color: #241717;
+  }
+  
+  .navbar {
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .navbar-brand {
+    width: 210px;
+  }
+  
+  .navbar-collapse ul {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+  }
+  
+  .navbar-collapse ul li {
+    padding-left: 42px;
+    font-size: 25px;
+  }
+  
+  .navbar-collapse ul li a, aa {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+  }
+  
+  .home-button a {
+    background-color: #0088a9;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .navbar-collapse ul li a:hover {
+    background-color: #0798bd;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .navbar-collapse ul li aa:hover {
+    background-color: #0798bd;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .header-info {
+    margin-left: 48px;
+    color: white;
+  }
+  
+  .phoneNumber {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header-call-info {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header-call-icon {
+    color: white;
+  }
+  
+      /*sub navigation for manue*/
+  .for-submenu {
+    position: relative;
+  }
+  .food-item-dropicon{
+    color: #ffe001;
+  }
+  
+  .sub-menu ul {
+    display: block;
+    position: absolute;
+    margin-top: 16px;
+    left: -20px;
+    visibility: hidden;
+    z-index: 0;
+    transition: .5s;
+  }
+  .for-submenu:hover ul{
+    z-index: 1;
+    visibility: visible;
+    margin-top: 5px;
+  }
+  .sub-menu ul li {
+    list-style: none;
+    background-color:#222224;
+    margin-left: 45px;
+    padding: 0 5px 0 5px;
+    border-radius: 4px;
+  }
+  
+  .for-submenu .sub-menu ul li a {
+    padding: 0;
+  }
+  
+  .for-submenu .sub-menu ul li:hover {
+    background-color: #0798bd;
+    border-radius: 0;
+  }
+
+      /*sub navigation fo
+
+/*Navigation bar END*/
+
+/*landing page section 1*/
+.landing-page{
+    background-image: url(img/header_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    height: 1000px;
+}
+.landing-contain{
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+}
+.landing-contain h1{
+    font-size: 80px;
+}
+.landing-contain h1 p{
+    font-size: 60px;
+}
+.order-now-button{
+    background-color: red;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 0 30% 0 30%;
+}
+/*landing page section 1*/
+
+/*our-chef section 2*/
+.chef-info-content{
+  padding-top: 100px;
+}
+.our-chef{
+  background-image: url(img/background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.barger-text-content{
+  text-align: center;
+  color: tomato;
+  padding-top: 90px;
+}
+.barger-text-content h1{
+  font-size: 60px;
+}
+.barger-text-content p{
+  font-size: 30px;
+}
+.chef-info{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 200px;
+  color: tomato;
+}
+.chef-info h2{
+  font-size: 40px;
+}
+.chef-info p{
+  font-size: 30px;
+}
+.chef-img{
+  width: 380px;
+}
+/*our-chef section 2 END*/
+
+/*best-burger section 3*/
+.best-burger{
+  background-color: tomato;
+  color: white;
+}
+.barger-image{
+  padding: 100px;
+}
+.bargerimg1{
+  width: 600px;
+}
+.best-burger-content{
+  padding: 100px;
+}
+.best-burger-content h2{
+  font-size: 80px;
+}
+.best-burger-content p{
+  font-size: 20px;
+}
+/*best-burger section 3 END*/
+
+/*best barger section 4*/
+  .best-burger2{
+    background-image: url(img/background_for_barger2.jpg);
+  }
+/*best barger setction 4 END*/
+
+/*statistics section 5*/
+.statistics{
+  background-color: tomato;
+}
+.barger-text-content2{
+  color: white;
+  text-align: center;
+  padding: 80px 0 60px 0;
+}
+.barger-text-content2 h1{
+  font-size: 60px;
+}
+.barger-text-content2 p{
+  font-size: 20px;
+}
+
+.static-circle{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid white;
+  border-radius: 50%;
+  text-align: center;
+}
+.static-circle  h2{
+  font-size: 105px;
+  font-weight: 700;
+  color: white;
+}
+.static-circle p{
+  font-size: 37px;
+  color: white;
+}
+/*statistics section 5 END*/
+
+/*popular-package section 6*/
+.popular-package{
+  background-image: url(img/background4.jpg);
+}
+.card{
+  color: tomato;
+}
+.card h5{
+  font-size: 35px;
+  font-weight: 900px;
+}
+.pp{
+  font-size: 20px;
+}
+
+/*popular-package section 6 END*/
+
